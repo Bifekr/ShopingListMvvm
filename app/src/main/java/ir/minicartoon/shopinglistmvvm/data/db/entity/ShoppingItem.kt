@@ -1,4 +1,4 @@
-package ir.minicartoon.shopinglistmvvm
+package ir.minicartoon.shopinglistmvvm.data.db.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

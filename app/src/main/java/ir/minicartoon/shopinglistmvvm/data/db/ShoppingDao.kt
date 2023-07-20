@@ -1,12 +1,12 @@
-package ir.minicartoon.shopinglistmvvm
+package ir.minicartoon.shopinglistmvvm.data.db
 
-import android.icu.text.Replaceable
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import ir.minicartoon.shopinglistmvvm.data.db.entity.ShoppingItem
 
 @Dao
 interface ShoppingDao {
@@ -17,5 +17,5 @@ interface ShoppingDao {
     suspend fun delete(item: ShoppingItem)
 
     @Query("Select * From shoppingItem")
-    suspend fun getAllShoppingItem():LiveData<List<ShoppingItem>>
+     fun getAllShoppingItem():LiveData<List<ShoppingItem>>
 }

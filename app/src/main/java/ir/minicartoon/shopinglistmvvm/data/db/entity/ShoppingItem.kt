@@ -8,5 +8,5 @@ data class ShoppingItem(
     @PrimaryKey(autoGenerate = true)
     val id:Int,
     val name: String,
-    val amount: Int
+    var amount: Int
 )

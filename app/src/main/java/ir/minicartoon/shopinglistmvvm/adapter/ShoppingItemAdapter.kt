@@ -1,10 +1,8 @@
 package ir.minicartoon.shopinglistmvvm.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ir.minicartoon.shopinglistmvvm.R
 import ir.minicartoon.shopinglistmvvm.data.db.entity.ShoppingItem
 import ir.minicartoon.shopinglistmvvm.databinding.SoppingItemBinding
 import ir.minicartoon.shopinglistmvvm.ui.shoppinglist.ShoppingViewModel
